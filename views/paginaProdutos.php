@@ -84,15 +84,115 @@
                         </ul>
                     </div> -->
                     <div class="d-flex align-items-center">
-                        <a class="linkOpcoes" href="#">Home &nbsp;<i class="fa-solid fa-circle iconeMenu"></i></a>
-                        <a class="linkOpcoes" href="#">Produtos &nbsp;<i class="fa-solid fa-circle iconeMenu"></i></a>
-                        <a class="linkOpcoes" href="#">Bairros delivery &nbsp;<i class="fa-solid fa-circle iconeMenu"></i></a>
+                        <a class="linkOpcoes ativo" href="#">Home &nbsp;</a><i class="fa-solid fa-circle iconeMenu"></i>
+                        <a class="linkOpcoes" href="#">Produtos &nbsp;</a><i class="fa-solid fa-circle iconeMenu"></i>
+                        <a class="linkOpcoes" href="#">Bairros delivery &nbsp;</a><i class="fa-solid fa-circle iconeMenu"></i>
                         <a class="linkOpcoes" href="#">Contatos</a>
                     </div>
                     
                 </div>
             </nav>
+            <div id="areaApresentacao" class="container">
+                <div class="areaImagem">
+                    <img class="imagemBanner" src="https://imagensemoldes.com.br/wp-content/uploads/2020/07/Desenho-Lanche-PNG.png" alt="">
+                </div>
+                <div class="areaDadosApresentacao">
+                    <div id="topoApresentacao">
+                        <h3>EXPERIMENTE NOSSAS <span class="destaqueTitulo">DELÍCIAS</span></h3>
+                    </div>
+                    <div id="conteudoApresentacao">
+                        Bateu aquela fome ?! faça seu pedido e receba na sua casa, simples rápido e facil<br>
+                        <button class="btn btn-outline-warning">Fazer pedido</button>
+                    </div>
+                </div>
+            </div>
 
         </header>
+
+        <section id="areaProdutos">
+            <h3 id="tituloCatalogo">PRODUTOS <span class="destaqueTitulo">DISPONÍVEIS</span></h3>
+
+            <div id="areaCards" class="row">
+                <div class="card" style="width: 16rem;">
+                    <div class="areaImagemCard">
+                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmoKEFC6Z3lEXkWMgLtqn8IAz2EZ9UM-wSZw&usqp=CAU" class="card-img-top" alt="...">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Coxinha frango</h5>
+                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
+                        <button type="button" class="btn btn-outline-success">Success</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="areaImagemCard">
+                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aXPuMPsZ49Sy6RoLbp_4_sZ41MvE84qdHA&usqp=CAU"/>
+                    </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Coxinha frango</h5>
+                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
+                        <button type="button" class="btn btn-outline-success">Success</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="areaImagemCard">
+                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aXPuMPsZ49Sy6RoLbp_4_sZ41MvE84qdHA&usqp=CAU"/>
+                    </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Coxinha frango</h5>
+                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
+                        <button type="button" class="btn btn-outline-success">Success</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="areaImagemCard">
+                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aXPuMPsZ49Sy6RoLbp_4_sZ41MvE84qdHA&usqp=CAU"/>
+                    </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Coxinha frango</h5>
+                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
+                        <button type="button" class="btn btn-outline-success">Success</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="areaImagemCard">
+                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aXPuMPsZ49Sy6RoLbp_4_sZ41MvE84qdHA&usqp=CAU"/>
+                    </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Coxinha frango</h5>
+                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
+                        <button type="button" class="btn btn-outline-success">Success</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="areaImagemCard">
+                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aXPuMPsZ49Sy6RoLbp_4_sZ41MvE84qdHA&usqp=CAU"/>
+                    </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Coxinha frango</h5>
+                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
+                        <button type="button" class="btn btn-outline-success">Success</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="areaImagemCard">
+                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aXPuMPsZ49Sy6RoLbp_4_sZ41MvE84qdHA&usqp=CAU"/>
+                    </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Coxinha frango</h5>
+                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
+                        <button type="button" class="btn btn-outline-success">Success</button>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
     </body>
 </html>
