@@ -6,7 +6,7 @@
 header{
 
     background-color: #ae0f02;
-    height: 400px;
+    height: 450px;
 }
 
 #navTopoContato{
@@ -55,14 +55,26 @@ header{
     text-decoration: none;
     color: #FFFF;
     font-weight: bold;
+    font-size: 11pt;
     margin-left: 10px;
     font-family: NunitoExtrabold;
 }
 
+.linkOpcoes:hover{
+
+    color: yellow;
+}
+
+.ativo{
+
+    color: yellow;
+}
+
 .iconeMenu{
 
-    font-size: 5pt;
-    margin-bottom: 2px;
+    font-size: 3pt;
+    /* margin-bottom: 2px; */
+    color: #FFF;
 }
 
 .navbar-brand{
@@ -84,4 +96,95 @@ header{
     width: 35px;
     height: 35px;
     font-size: 10px;
+}
+
+#areaApresentacao{
+
+    width: 75%;
+    /*margin: auto; */
+    margin-top: 35px;
+    padding-left: 25px;
+    display: flex;
+    
+}
+
+#areaApresentacao > div{
+
+    width: 50%;
+}
+
+#imagemBanner{
+
+
+}
+
+.areaDadosApresentacao{
+
+    align-items: center;
+}
+
+#topoApresentacao{
+
+    text-align: center;
+}
+
+#topoApresentacao h3{
+
+    color: #FFF;
+    font-family: NunitoExtrabold;
+}
+
+.destaqueTitulo{
+
+    border-bottom: 3px solid yellow;
+    padding-bottom: 7px;
+}
+
+#conteudoApresentacao{
+
+    padding: 10px;
+    margin-top: 10px;
+    color: #FFF;
+}
+
+#conteudoApresentacao > button{
+
+    margin-top: 20px;
+}
+
+#areaProdutos{
+
+    padding: 5%;
+}
+
+#tituloCatalogo{
+
+    font-family: NunitoExtrabold;
+    font-weight: bold;
+}
+
+#areaCards{
+
+    margin-top: 20px;
+}
+
+.card{
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.areaImagemCard{
+
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid; */
+}
+
+
+.areaImagemCard img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
