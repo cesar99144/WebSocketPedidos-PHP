@@ -15,7 +15,7 @@
         <!-- Css interno -->
         <link rel="stylesheet" href="../assets/css/homeProdutos.css">
     </head>
-    <body>
+    <body onload="carregarProdutos()">
         <header>
             <nav id="navTopoContato" class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
@@ -85,7 +85,7 @@
                     </div> -->
                     <div class="d-flex align-items-center">
                         <a class="linkOpcoes ativo" href="#">Home &nbsp;</a><i class="fa-solid fa-circle iconeMenu"></i>
-                        <a class="linkOpcoes" href="#">Produtos &nbsp;</a><i class="fa-solid fa-circle iconeMenu"></i>
+                        <a class="linkOpcoes" href="#areaProdutos">Produtos &nbsp;</a><i class="fa-solid fa-circle iconeMenu"></i>
                         <a class="linkOpcoes" href="#">Bairros delivery &nbsp;</a><i class="fa-solid fa-circle iconeMenu"></i>
                         <a class="linkOpcoes" href="#">Contatos</a>
                     </div>
@@ -101,7 +101,7 @@
                         <h3>EXPERIMENTE NOSSAS <span class="destaqueTitulo">DELÍCIAS</span></h3>
                     </div>
                     <div id="conteudoApresentacao">
-                        Bateu aquela fome ?! faça seu pedido e receba na sua casa, simples rápido e facil<br>
+                        Bateu aquela fome ?! faça seu pedido e receba na sua casa simples, rápido e facil<br>
                         <button class="btn btn-outline-warning">Fazer pedido</button>
                     </div>
                 </div>
@@ -110,10 +110,12 @@
         </header>
 
         <section id="areaProdutos">
-            <h3 id="tituloCatalogo">PRODUTOS <span class="destaqueTitulo">DISPONÍVEIS</span></h3>
-
+            <div id="topoAreaProdutos">
+                <h3 id="tituloCatalogo">PRODUTOS <span class="destaqueTitulo">DISPONÍVEIS</span></h3>
+                <button data-bs-toggle="modal" data-bs-target="#modalCarrinhoItens" class="btn btn-outline-primary"><i class='bx bx-cart'></i> Meu carrinho <span id="quantidadeProdutos" class="badge bg-secondary">0</span></button>
+            </div>
             <div id="areaCards" class="row">
-                <div class="card" style="width: 16rem;">
+                <!-- <div class="card" style="width: 16rem;">
                     <div class="areaImagemCard">
                         <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmoKEFC6Z3lEXkWMgLtqn8IAz2EZ9UM-wSZw&usqp=CAU" class="card-img-top" alt="...">
                     </div>
@@ -123,76 +125,57 @@
                         <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
                         <button type="button" class="btn btn-outline-success">Success</button>
                     </div>
-                </div>
-                <div class="card" style="width: 16rem;">
-                    <div class="areaImagemCard">
-                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aXPuMPsZ49Sy6RoLbp_4_sZ41MvE84qdHA&usqp=CAU"/>
-                    </div>
-                    
-                    <div class="card-body">
-                        <h5 class="card-title">Coxinha frango</h5>
-                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
-                        <button type="button" class="btn btn-outline-success">Success</button>
-                    </div>
-                </div>
-                <div class="card" style="width: 16rem;">
-                    <div class="areaImagemCard">
-                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aXPuMPsZ49Sy6RoLbp_4_sZ41MvE84qdHA&usqp=CAU"/>
-                    </div>
-                    
-                    <div class="card-body">
-                        <h5 class="card-title">Coxinha frango</h5>
-                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
-                        <button type="button" class="btn btn-outline-success">Success</button>
-                    </div>
-                </div>
-                <div class="card" style="width: 16rem;">
-                    <div class="areaImagemCard">
-                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aXPuMPsZ49Sy6RoLbp_4_sZ41MvE84qdHA&usqp=CAU"/>
-                    </div>
-                    
-                    <div class="card-body">
-                        <h5 class="card-title">Coxinha frango</h5>
-                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
-                        <button type="button" class="btn btn-outline-success">Success</button>
-                    </div>
-                </div>
-                <div class="card" style="width: 16rem;">
-                    <div class="areaImagemCard">
-                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aXPuMPsZ49Sy6RoLbp_4_sZ41MvE84qdHA&usqp=CAU"/>
-                    </div>
-                    
-                    <div class="card-body">
-                        <h5 class="card-title">Coxinha frango</h5>
-                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
-                        <button type="button" class="btn btn-outline-success">Success</button>
-                    </div>
-                </div>
-                <div class="card" style="width: 16rem;">
-                    <div class="areaImagemCard">
-                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aXPuMPsZ49Sy6RoLbp_4_sZ41MvE84qdHA&usqp=CAU"/>
-                    </div>
-                    
-                    <div class="card-body">
-                        <h5 class="card-title">Coxinha frango</h5>
-                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
-                        <button type="button" class="btn btn-outline-success">Success</button>
-                    </div>
-                </div>
-                <div class="card" style="width: 16rem;">
-                    <div class="areaImagemCard">
-                        <img class="imagemProdutos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aXPuMPsZ49Sy6RoLbp_4_sZ41MvE84qdHA&usqp=CAU"/>
-                    </div>
-                    
-                    <div class="card-body">
-                        <h5 class="card-title">Coxinha frango</h5>
-                        <p class="card-text">Apartir de: <span class="textPreco">R$ 6,00</span></p>
-                        <button type="button" class="btn btn-outline-success">Success</button>
-                    </div>
-                </div>
+                </div> -->
+                
                 
             </div>
             
         </section>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCarrinhoItens">
+        Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalCarrinhoItens" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><i class='bx bx-cart'></i> Carrinho</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="dadosCliente">
+                    <div>
+                        <label>Cliente: <br><input type="text" value="César" /></label><br><br>
+                    </div>
+                    <div>
+                        <label>Endereço: <br><textarea cols="30" rows="1"></textarea></label><br>
+                    </div>
+
+                </div>
+                <ul id="listaItensCarrinhos" class="list-group list-group-flush">
+                    <!-- <li class="list-group-item d-flex justify-content-between">
+                        <span class="nomeProdutoCarrinho">Coxinha</span>
+                        <span class="quantidadeProdutoCarrinho">Qnt: 2</span>
+                        <span class="precoProdutoCarrinho">R$ 5</span>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="modal-footer d-flex justify-content-between">
+                <div>
+                    Total: <span id="valorTotalPedido"></span>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-success">Finalizar pedido</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <script src="../assets/js/produtos.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     </body>
 </html>
