@@ -1,0 +1,87 @@
+@font-face {
+    font-family: NunitoExtrabold;
+    src: url(../fonts/nunito/Nunito-ExtraBold.ttf)
+}
+
+header{
+
+    background-color: #ae0f02;
+    height: 400px;
+}
+
+#navTopoContato{
+
+    /* background-color: #cd1203; */
+    /* background: -webkit-linear-gradient(left, #9a0d01, #d91405); */
+    padding: 5px;
+    padding-left: 7%;
+    /* padding-left: 0px; */
+    padding-right: 5%;
+    border-bottom: 0.5px solid #e5e5e5;
+    width: 55%;
+    margin: auto;
+}
+
+.link-menu{
+
+    color: #FFF;
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: NunitoExtrabold;
+}
+
+.icones{
+
+    color: yellow;
+}
+
+#subNavTopo{
+
+    padding: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#menuOpcoes{
+
+    display: flex;
+}
+
+.linkOpcoes{
+
+    text-decoration: none;
+    color: #FFFF;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: NunitoExtrabold;
+}
+
+.iconeMenu{
+
+    font-size: 5pt;
+    margin-bottom: 2px;
+}
+
+.navbar-brand{
+
+    font-weight: bold;
+    color: white;
+}
+
+.brandLogo{
+
+    color: yellow;
+}
+
+.circulo{
+
+    background-color: #FFF;
+    color: white;
+    border-radius: 75%;
+    width: 35px;
+    height: 35px;
+    font-size: 10px;
+}
