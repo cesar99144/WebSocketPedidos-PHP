@@ -1,5 +1,5 @@
 # WebSocketPedidos-PHP
-Exemplo de webSocket com php utilizando a biblioteca Ratchet, foi criado um servidor socket que carrega novos pedidos em tempo real no painel Admin, sem a necessiade de refresh na página
+Exemplo de webSocket com php utilizando a biblioteca Ratchet. Foi criado um servidor socket que carrega novos pedidos em tempo real no painel Admin, sem a necessidade de refresh na página
 
 
 ## Funcionalidades
