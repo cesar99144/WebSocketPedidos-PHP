@@ -37,13 +37,13 @@ Instale as dependências
 ```
 
 Inicie o sistema
-(Executar na raíz do projeto)
+(Executar na raiz do projeto)
 
 ```bash
   php -S localhost:8080 
 ```
 
-Inicie o servidor socket
+Inicie o servidor socket (Executar na raiz do projeto)
 
 ```bash
   php pedidos.php
