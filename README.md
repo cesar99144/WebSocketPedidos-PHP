@@ -50,4 +50,4 @@ Inicie o servidor socket
 ```
 
 ## Demonstração
-<img src="assets/ImagensProjetos/Pedidos.gif" alt="drawing" width="200">
+<img src="assets/ImagensProjetos/Pedidos.gif" alt="drawing">
