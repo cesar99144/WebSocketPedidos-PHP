@@ -1,0 +1,48 @@
+@font-face {
+    font-family: NunitoExtrabold;
+    src: url(../fonts/nunito/Nunito-ExtraBold.ttf)
+}
+
+body{
+
+    background: #e1ecf2;
+}
+
+#navDash{
+
+    background-color: #ae0f02;
+    padding-left: 5%;
+}
+
+#tituloNav{
+
+    font-weight: bold;
+}
+
+#containerPedidos{
+
+    margin-top: 5%;
+    background-color: white;
+    padding: 2%;
+}
+
+#tituloPedidos{
+
+    font-family: NunitoExtrabold;
+}
+
+.list-group {
+
+    width: 70%;
+}
+
+.textoClientePedido{
+
+    color: #212529;
+    font-weight: bold;
+}
+
+.areaButtonsCard{
+
+    margin-top: 10px;
+}
