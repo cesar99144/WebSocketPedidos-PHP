@@ -97,7 +97,7 @@
             </nav>
             <div id="areaApresentacao" class="container">
                 <div class="areaImagem">
-                    <img class="imagemBanner" src="https://imagensemoldes.com.br/wp-content/uploads/2020/07/Desenho-Lanche-PNG.png" alt="">
+                    <img class="imagemBanner" src="../assets/ImagensProjetos/Desenho-Lanche-PNG.png" alt="">
                 </div>
                 <div class="areaDadosApresentacao">
                     <div id="topoApresentacao">
