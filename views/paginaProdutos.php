@@ -14,6 +14,9 @@
         <script src="https://use.fontawesome.com/releases/v6.1.1/js/all.js"></script>
         <!-- Css interno -->
         <link rel="stylesheet" href="../assets/css/homeProdutos.css">
+        <!-- Toasts -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     </head>
     <body onload="carregarProdutos()">
         <header>
@@ -132,11 +135,6 @@
             
         </section>
 
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCarrinhoItens">
-        Launch demo modal
-        </button>
-
         <!-- Modal -->
         <div class="modal fade" id="modalCarrinhoItens" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog">
@@ -148,10 +146,10 @@
             <div class="modal-body">
                 <div id="dadosCliente">
                     <div>
-                        <label>Cliente: <br><input type="text" value="César" /></label><br><br>
+                        <label>Cliente: <br><input type="text" id="nomeCliente"/></label><br><br>
                     </div>
                     <div>
-                        <label>Endereço: <br><textarea cols="30" rows="1"></textarea></label><br>
+                        <label>Endereço: <br><textarea id="enderecoCliente" cols="30" rows="1"></textarea></label><br>
                     </div>
 
                 </div>
@@ -168,13 +166,14 @@
                     Total: <span id="valorTotalPedido"></span>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-success">Finalizar pedido</button>
+                    <button id="finalizar" type="button" class="btn btn-success">Finalizar pedido</button>
                 </div>
             </div>
             </div>
         </div>
         </div>
 
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <script src="../assets/js/produtos.js"></script>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     </body>
